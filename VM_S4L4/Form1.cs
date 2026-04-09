@@ -436,7 +436,7 @@ namespace VM_S4L4
             {
                 Series seriesSpline = new Series("Кубический сплайн");
                 seriesSpline.ChartType = SeriesChartType.Line;
-                seriesSpline.BorderWidth = 3;
+                seriesSpline.BorderWidth = 4;
                 seriesSpline.Color = Color.Red;
                 seriesSpline.Legend = "Legend";
 
@@ -462,7 +462,7 @@ namespace VM_S4L4
                 Series seriesPoly = new Series(seriesName);
                 seriesPoly.ChartType = SeriesChartType.Line;
                 seriesPoly.BorderWidth = 2;
-                seriesPoly.Color = Color.FromArgb(rand.Next(100, 255), rand.Next(0, 255), rand.Next(0, 255), rand.Next(0, 255));
+                seriesPoly.Color = Color.FromArgb(255 , 0, 255, 0);
                 seriesPoly.Legend = "Legend";
 
                 int steps = 200;
